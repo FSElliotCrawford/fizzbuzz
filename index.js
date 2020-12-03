@@ -16,8 +16,10 @@ function run(value) {
 
 function init() {
     for (let index = 1; index <= 100; index++) {
-        console.log(run(index));
+        //console.log(run(index));
     }
 }
 
 init();
+
+module.exports = run;
